@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.companyname.springapp.repository.JPAProductDaoTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.companyname.springapp.repository.JPAProductDaoTests
+testSaveProduct(com.companyname.springapp.repository.JPAProductDaoTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.companyname.springapp.repository.ProductDao.getProductList()" because "this.productDao" is null
+	at com.companyname.springapp.repository.JPAProductDaoTests.testSaveProduct(JPAProductDaoTests.java:28)
+
+testGetProductList(com.companyname.springapp.repository.JPAProductDaoTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.companyname.springapp.repository.ProductDao.getProductList()" because "this.productDao" is null
+	at com.companyname.springapp.repository.JPAProductDaoTests.testGetProductList(JPAProductDaoTests.java:22)
+

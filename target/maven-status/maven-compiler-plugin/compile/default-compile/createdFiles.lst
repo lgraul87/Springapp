@@ -1,0 +1,8 @@
+com\companyname\springapp\service\SimpleProductManager.class
+com\companyname\springapp\web\PriceIncreaseFormController.class
+com\companyname\springapp\repository\ProductDao.class
+com\companyname\springapp\service\PriceIncrease.class
+com\companyname\springapp\web\InventoryController.class
+com\companyname\springapp\domain\Product.class
+com\companyname\springapp\repository\JPAProductDao.class
+com\companyname\springapp\service\ProductManager.class
